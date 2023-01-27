@@ -1,0 +1,2183 @@
+@font-face {
+  font-family: 'minecraft';
+  src: url('../CSS/Font/minecraftia/Minecraftia-Regular.ttf') format(truetype);
+}
+
+body {
+
+  margin: 0;
+  padding: -200px;
+  background: rgb(39, 42, 48);
+  background: linear-gradient(0deg, rgba(39, 42, 48, 1) 0%, rgba(0, 26, 255, 1) 45%, rgba(39, 42, 48, 1) 100%);
+  ;
+  font-family: 'minecraft', arial;
+  font-size: large;
+
+
+
+
+
+}
+
+/* Page Principal */
+
+#explain {
+  text-align: center;
+  color: white;
+  font-family: 'minecraft', 'arial-bold';
+  padding: 10px;
+  font-size: x-large;
+}
+
+.titre {
+  font-family: 'minecraft', 'arial';
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-align: center;
+}
+
+.liste {
+  font-family: 'minecraft', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.subtitre1 {
+  text-align: center;
+}
+
+.subtitre {
+  background-color: #033dfc;
+  color: white;
+  text-align: center;
+}
+
+
+
+#By {
+  background-color: #033dfc;
+  font-family: 'minecraft', 'arial';
+  text-align: center;
+}
+
+#P-A {
+  background-color: red;
+  font-family: 'minecraft', 'arial';
+  text-align: center;
+}
+
+#logo_Main {
+  width: 750px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+}
+
+/* Grid contenant les articles sur la liste*/
+#test {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+#art1 {
+  color: #d1d1cf;
+  text-decoration: none;
+
+}
+
+#art2 {
+  color: #d1d1cf;
+  text-decoration: none;
+}
+
+#art3 {
+  color: #d1d1cf;
+  text-decoration: none;
+}
+
+#art4 {
+  color: white;
+  text-decoration: none;
+}
+
+#art3_fs {
+  color: black;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  padding-top: 100px;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  margin-top: -50px;
+  margin-left: 15%;
+  margin-right: 80px;
+  margin-bottom: 80px;
+
+
+
+
+
+
+
+}
+
+#grid-element {
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'minecraft', 'arial';
+  color: white;
+}
+
+#test {
+  border: 2px solid white;
+  margin-top: 13%;
+}
+
+
+.grid-item1 {
+background-image: url(../img/banner_IT.png);
+  background-size: 100%;
+  border: 5px solid white;
+  border-radius: 50px 50px 50px 50px;
+
+  text-align: center;
+  height: 250px;
+  width: 550px;
+
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'minecraft', 'arial';
+  color: white;
+
+}
+
+.grid-item2 {
+background-image: url(../img/software_free_owner_banner.png);
+  background-size: 100%;
+  border: 5px solid white;
+  border-radius: 50px 50px 50px 50px;
+
+  text-align: center;
+  height: 250px;
+  width: 550px;
+
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'minecraft', 'arial';
+  color: white;
+
+}
+
+.grid-item3 {
+
+  background-size: 100%;
+  border: 5px solid white;
+  border-radius: 50px 50px 50px 50px;
+
+  text-align: center;
+  height: 250px;
+  width: 550px;
+
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'minecraft', 'arial';
+  color: white;
+
+}
+
+.grid-item4 {
+background-image: url(../img/logo_elearning.jpg);
+  background-size: 100%;
+  background-position: 50%;
+  border: 5px solid white;
+  border-radius: 50px 50px 50px 50px;
+
+  text-align: center;
+  height: 250px;
+  width: 550px;
+
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'minecraft', 'arial';
+  color: white;
+
+}
+
+.grid-item5 {
+  background-image: url(../img/HardcoreGamers-Blog-Header.png);
+  background-size: 100%;
+  border: 5px solid white;
+  border-radius: 50px 50px 50px 50px;
+
+  text-align: center;
+  height: 250px;
+  width: 550px;
+
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'minecraft', 'arial';
+  color: white;
+
+}
+
+.grid-item6 {
+background-image: url(../img/banner_network_2.jpeg);
+  background-size: 100%;
+  border: 5px solid white;
+  border-radius: 50px 50px 50px 50px;
+
+  text-align: center;
+  height: 250px;
+  width: 550px;
+
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'minecraft', 'arial';
+  color: white;
+
+}
+
+.grid-item7 {
+  background-image: url(../img/cyber_banner.jpg);
+  background-size: 100%;
+  border: 5px solid white;
+  border-radius: 50px 50px 50px 50px;
+
+  text-align: center;
+  height: 250px;
+  width: 550px;
+
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'minecraft', 'arial';
+  color: white;
+
+}
+
+.grid-item8 {
+background-image: url(../img/coding_img.png);
+  background-size: 100%;
+  border: 5px solid white;
+  border-radius: 50px 50px 50px 50px;
+
+  text-align: center;
+  height: 250px;
+  width: 550px;
+
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'minecraft', 'arial';
+  color: white;
+
+}
+
+.grid-item9 {
+background-image: url(../img/hosting-banner.jpg);
+  background-size: 100%;
+  border: 5px solid white;
+  border-radius: 50px 50px 50px 50px;
+
+  text-align: center;
+  height: 250px;
+  width: 550px;
+
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'minecraft', 'arial';
+  color: white;
+
+}
+
+.grid-item10 {
+  background-image: url(../img/banner_law.png);
+  background-size: 100%;
+  border: 5px solid white;
+  border-radius: 50px 50px 50px 50px;
+
+  text-align: center;
+  height: 250px;
+  width: 550px;
+
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'minecraft', 'arial';
+  color: white;
+
+}
+
+.grid-item11 {
+background-image: url("../img/banner_management.jpg");
+  background-size: 150%;
+  border: 5px solid white;
+  border-radius: 50px 50px 50px 50px;
+
+  text-align: center;
+  height: 250px;
+  width: 550px;
+
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'minecraft', 'arial';
+  color: white;
+
+}
+
+/*Article Network*/
+
+.subtitle_article_com {
+  color: white;
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+;
+  font-weight: bold;
+  line-height: 170%;
+  margin-left: 25%;
+  text-decoration: underline;
+}
+
+#network_img{
+
+  height: auto;
+  display: block;
+}
+
+
+#network{
+  max-width: 100%;
+display: flex;
+  justify-content: center;
+}
+
+.texte_centrer_network{
+  position: absolute;
+  top: 78%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 150%;
+  line-height: 200%;
+}
+
+#cisco_img{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Article informaticien*/
+
+.texte_centrer_IT{
+  position: absolute;
+  top: 65%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 150%;
+  line-height: 200%;
+}
+
+#developper_banner_img{
+
+  height: auto;
+  display: block;
+}
+
+
+#developper_banner{
+  max-width: 100%;
+display: flex;
+  justify-content: center;
+}
+
+.ensemble_map{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  
+
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 80px;
+  border:solid 10px #005187;
+  background-color: #A6A8AA;
+
+}
+#carte_eu_size{
+width: 100%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20%;
+
+}
+
+#carte_su_size{
+  width: 100%;
+  display: block;
+margin-left: auto;
+margin-right: auto;
+ margin-top: 20%;
+  
+  }
+  #carte_uk_size{
+    width: 70%;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20%;
+
+    
+    }
+     
+
+
+#carte_uk{
+
+margin-left: 7%;
+transition: transform .1s;
+
+
+text-align: center;
+border:solid 0px;
+
+  
+}
+
+#carte_uk:hover{
+  
+  transform: scale(1.3);
+  }
+
+#carte_eu{
+width: auto;
+margin-left: 7%;
+transition: transform .1s;
+border:solid 0px;
+
+}
+
+#carte_eu:hover{
+  transform: scale(1.3);
+}
+
+#carte_su{
+
+  margin-left: 7%;
+  transition: transform .1s;
+  border:solid 0px;
+}
+
+#carte_su:hover{
+  transform: scale(1.3);
+}
+
+#case_uk{/*su*/
+  text-align: center;
+  color:white;
+  text-decoration: none;
+}
+
+#case_su{/*eu*/
+  text-align: center;
+  color:white;
+  text-decoration: none;
+}
+
+#case_eu{ 
+  text-align: center;
+  color:white;
+
+}
+
+.grid-formation{display: grid;
+  grid-template-columns: auto auto auto;
+
+  padding-top: 100px;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+
+  margin-left: 5%;
+
+  
+ 
+}
+
+.grid-item_form {
+
+  background-size: 100%;
+  border: 5px solid white;
+  border-radius: 50px 50px 50px 50px;
+
+  text-align: center;
+  height: 250px;
+  width: 550px;
+
+  font-size: 30px;
+  text-decoration: none;
+  
+  color: white;
+
+
+}
+
+#bts{
+  width: 75%;
+  border: solid 5px #005086;
+  background-color: white;
+  margin-top: 5%;
+  transition: transform .1s;
+}
+
+#bts:hover{
+transform: scale(1.3);
+}
+
+#L1{
+  width: 100%;
+  margin-left: -50%;
+  border: solid 5px #005086;
+  padding: 2%;
+  background-color: white;
+  transition: transform .1s;
+}
+
+#L1:hover{
+  transform: scale(1.3);
+}
+
+#BUT{
+  width: 100%;
+  margin-left: -30%;
+  margin-top: 10%;
+  border: solid 5px #005086;
+  padding: 2%;
+  background-color: white;
+  transition: transform .1s;
+}
+
+#BUT:hover{
+  transform: scale(1.3);
+}
+
+#fs_formation{
+  border: solid 5px #005086;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #A6A8AA;
+  font-family: 'Courier New', Courier, monospace;
+  color:white;
+  font-size: 200%;
+  font-weight: bold;
+}
+/*Article Config PC*/
+
+#category_pc{
+  color: white;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+#link_config1{
+  font-family: 'minecraft',arial;
+  color:white;
+  margin-left: 45%;
+  text-decoration: none;
+  font-size: 150%;
+  margin-bottom: 25%;
+  
+}
+
+#link_config2{
+  font-family: 'minecraft',arial;
+  color:white;
+  margin-left: 45%;
+  text-decoration: none;
+  font-size: 150%;
+  
+}
+
+.texte_centrer_PC{
+  position: absolute;
+  top: 65%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 150%;
+  line-height: 200%;
+}
+
+
+/*Menu déroulant en haut*/
+
+nav {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #18191B;
+  position: sticky;
+  top: 0px;
+  z-index: 5000;
+}
+
+nav ul {
+  list-style-type: none;
+
+}
+
+nav ul li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  position: relative;
+}
+
+nav ul::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid transparent;
+  padding: 10px 0px;
+}
+
+nav a:hover {
+  color: orange;
+  border-bottom: 2px solid gold;
+}
+
+.sous {
+  display: none;
+  box-shadow: 0px 1px 2px #CCC;
+  background: #0400ff;
+  background: linear-gradient(0deg, #0400ff 0%, rgba(39, 42, 48, 1) 54%);
+  position: absolute;
+  width: 100%;
+  z-index: 5000;
+}
+
+nav>ul li:hover .sous {
+  display: block;
+}
+
+.sous li {
+  float: none;
+  width: 100%;
+  text-align: left;
+}
+
+.sous a {
+  padding: 10px;
+  border-bottom: none;
+}
+
+.sous a:hover {
+  border-bottom: none;
+  background-color: RGBa(200, 200, 200, 0.1);
+}
+
+.deroulant>a::after {
+  content: url(../img/icone_Arrow.png );
+  font-size: 12px;
+}
+
+#logo_Barre {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 300px;
+  height: 50px;
+}
+
+/*Caractéristique principale article*/
+
+.article_Title {
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  font-size: 50px;
+}
+
+.text_article {
+  padding: 35px;
+  color: white;
+  line-height: 200%;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 1000;
+}
+
+.resume_Article {
+  text-align: center;
+  color: white;
+  margin-bottom: -35px;
+  text-decoration: underline;
+}
+
+.subtitle_article {
+  color: white;
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 35px;
+  font-weight: bold;
+  line-height: 170%;
+}
+
+
+/*Article project*/
+
+#project_img{
+
+height: auto;
+  display: block;
+}
+
+#project{
+display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+#wrike_img{
+  padding-top: 5%;
+  width: 80%;
+  
+}
+
+#zoho{
+  padding-top: 0%;
+  width: 40%;
+}
+
+.texte_centrer_project{
+  position: absolute;
+  top: 65%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 150%;
+  line-height: 200%;
+}
+
+/*Article Contrat Maintenance*/
+
+#contract_fs{
+  margin-top:2%;
+  border: solid 5px #005086;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  line-height: 170%;
+
+}
+
+
+
+
+/*Article Cybersécurité*/
+
+
+#cyberpic_img{
+  height: auto;
+  display: block;
+  
+}
+
+#cyberpic{
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.subtitle_article_advice {
+  color: white;
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 35px;
+  font-weight: bold;
+  line-height: 170%;
+}
+
+
+#kaspersky_Map {
+  width: 1200px;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -150px;
+  border: 8px solid white;
+  border-radius: 15px 15px 15px;
+}
+
+
+
+.contenant {
+  position: relative;
+  text-align: center;
+  color: red;
+}
+
+.texte_centrer {
+  position: absolute;
+  top: 71%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 108%;
+  line-height: 200%;
+
+
+}
+
+#science_people {
+  margin-top: 50%;
+  color: #005187;
+  text-decoration: none;
+}
+
+#guillemet {
+  color: #A5A7AB;
+}
+
+#threat_title {
+  color: #005086;
+  border: 5px solid #005086;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  font-weight: bolder;
+  margin-bottom: 200px;
+}
+
+
+.global_title_threat {
+  color: #005086;
+  border: 5px solid #005086;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  font-weight: bolder;
+
+
+
+}
+
+.global_text_threat {
+  font-weight: bold;
+  margin-top: 3px;
+
+}
+
+#threat {
+  font-family: 'Courier New', Courier, monospace;
+  color: #005086;
+  font-size: 20px;
+  margin-top: -5px;
+  border: 0px;
+  background-color: #A6A8AA;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  border-radius: 10px 10px 10px 10px;
+  border: solid 10px #005086;
+}
+
+#type_threat1 {
+
+  margin-top: 10px;
+  border: solid 5px #005086;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+
+
+}
+
+.type_threat {
+
+  border: solid 5px #005086;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#hint_protect {
+  font-family: 'Courier New', Courier, monospace;
+  color: #005086;
+  font-size: 20px;
+
+  border: 0px;
+  background-color: #A6A8AA;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  border-radius: 10px 10px 10px 10px;
+  border: solid 10px #005086;
+  line-height: 200%;
+}
+
+.global_title_advice {
+  color: #005086;
+  border: 5px solid #005086;
+  margin-right: 20px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  font-weight: bolder;
+  width: 110px;
+  height: 90px;
+  float: left;
+}
+
+#phishing_img {
+  width: 100px;
+  height: 86px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#strong_password_img {
+  width: 135px;
+  height: 86px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.type_advice {
+  border: solid 5px #005086;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.global_text_advice {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 5px;
+
+
+}
+
+#usb_img {
+  width: 95px;
+  height: 95px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#secure_download {
+  width: 95px;
+  height: 95px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#add_antivirus {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+#kaspersky_img {
+  width: 400px;
+  height: 76px;
+  margin-top: 68px;
+
+
+}
+
+.flip_container_cyber {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  padding-top: 100px;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  margin-top: -100px;
+  margin-left: 150px;
+  margin-right: 80px;
+  margin-bottom: 40px;
+}
+
+.flip-card_ksk {
+  background-color: transparent;
+  width: 500px;
+  height: 200px;
+  border: 3px solid #009982;
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
+  border-radius: 20px 20px 20px 20px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner_ksk {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card_ksk:hover .flip-card-inner_ksk {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front_ksk,
+.flip-card-back_ksk {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front_ksk {
+  background-color: white;
+  color: black;
+  border-radius: 17px 17px 17px 17px;
+}
+
+/* Style the back side */
+.flip-card-back_ksk {
+  background-color: #009982;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 17px 17px 17px 17px;
+}
+
+#p1_ksk {
+  font-weight: bold;
+
+  line-height: 150%;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+#ksk_title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/*flip avast*/
+
+#title_avst {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#p1_avst {
+  font-weight: bold;
+  margin-top: 45px;
+  line-height: 150%;
+  font-size: 20px;
+}
+
+
+#avst_img {
+  width: 400px;
+  height: 124px;
+  margin-top: 40px;
+
+
+
+}
+
+.flip-card_avst {
+  background-color: transparent;
+  width: 500px;
+  height: 200px;
+  border: 3px solid #FF7800;
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
+  border-radius: 20px 20px 20px 20px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner_avst {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card_avst:hover .flip-card-inner_avst {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front_avst,
+.flip-card-back_avst {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front_avst {
+  background-color: white;
+  color: black;
+  border-radius: 17px 17px 17px 17px;
+}
+
+/* Style the back side */
+.flip-card-back_avst {
+  background-color: #FF7800;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 17px 17px 17px 17px;
+}
+
+#flipcard_fs {
+  font-family: 'Courier New', Courier, monospace;
+  color: #005086;
+  font-size: 20px;
+  margin-top: -5px;
+  border: 0px;
+  background-color: #A6A8AA;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  border-radius: 10px 10px 10px 10px;
+  border: solid 10px #005086;
+  line-height: 200%;
+}
+
+/*Bitdefendre*/
+
+.flip-card_btdfd {
+  background-color: transparent;
+  width: 500px;
+  height: 200px;
+  border: 3px solid #ED1C24;
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
+  border-radius: 20px 20px 20px 20px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner_btdfd {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card_btdfd:hover .flip-card-inner_btdfd {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front_btdfd,
+.flip-card-back_btdfd {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front_btdfd {
+  background-color: white;
+  color: black;
+  border-radius: 17px 17px 17px 17px;
+}
+
+/* Style the back side */
+.flip-card-back_btdfd {
+  background-color: #ED1C24;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 17px 17px 17px 17px;
+}
+
+
+#btdfd_img {
+  margin-top: 10px;
+  width: 350px;
+  height: 179px;
+}
+
+#p1_btdfd {
+  font-weight: bold;
+  margin-top: 25px;
+  line-height: 150%;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+#title_btdfd {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+/*NordVPN*/
+.flip-card_ndvpn {
+  background-color: transparent;
+  width: 500px;
+  height: 200px;
+  border: 3px solid #4580FF;
+  perspective: 1000px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+
+.flip-card-inner_ndvpn {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card_ndvpn:hover .flip-card-inner_ndvpn {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front_ndvpn,
+.flip-card-back_ndvpn {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front_ndvpn {
+  background-color: white;
+  color: black;
+  border-radius: 17px 17px 17px 17px;
+}
+
+
+.flip-card-back_ndvpn {
+  background-color: #4580FF;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 17px 17px 17px 17px;
+}
+
+
+#ndvpn_img {
+  margin-top: 50px;
+  margin-left: 22px;
+  width: 460px;
+  height: 102px;
+}
+
+#p1_ndvpn {
+  font-weight: bold;
+  margin-top: 25px;
+  line-height: 150%;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+#title_ndvpn {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+/* Article Code*/
+
+
+#codingpick {
+
+  max-width: 100%;
+}
+
+#good_practice {
+  font-family: 'Courier New', Courier, monospace;
+  color: #005086;
+  font-size: 20px;
+
+  border: 0px;
+  background-color: #A6A8AA;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  border-radius: 10px 10px 10px 10px;
+  border: solid 10px #005086;
+  line-height: 200%;
+}
+
+.tilesWrap {
+  margin-top: -3%;
+
+  margin-bottom: 50px auto;
+  margin-left: 50px auto;
+  margin-right: 50px auto;
+
+  list-style: none;
+  text-align: center;
+
+}
+
+.tilesWrap li {
+  display: inline-block;
+  width: 30%;
+
+  padding: 80px 20px 40px;
+  position: relative;
+  vertical-align: top;
+  margin: 50px;
+  font-family: 'helvetica', san-serif;
+  min-height: 25vh;
+  background: #262a2b;
+  border: 1px solid #252727;
+  text-align: left;
+}
+
+.tilesWrap li h2 {
+  font-size: 114px;
+  margin: 0;
+  position: absolute;
+  opacity: 0.2;
+  top: 50px;
+  right: 10px;
+  transition: all 0.3s ease-in-out;
+  color: #005086;
+
+}
+
+.tilesWrap li h3 {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.tilesWrap li p {
+  padding-top: 10%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  line-height: 18px;
+  color: white;
+  margin-top: 5px;
+  line-height: 150%;
+}
+
+
+
+.tilesWrap li:hover h2 {
+  top: 0px;
+  opacity: 0.6;
+}
+
+.tilesWrap li:before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  z-index: -1;
+  background: #fff;
+  transform: skew(2deg, 2deg);
+}
+
+.tilesWrap li:after {
+  content: '';
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(166, 168, 170, 0.2);
+}
+
+.tilesWrap li:nth-child(1):before {
+  background: #C9FFBF;
+  background: -webkit-linear-gradient(to right, #A6A8AA, #005086);
+  background: linear-gradient(to right, #005086, #A6A8AA);
+}
+
+.tilesWrap li:nth-child(2):before {
+  background: #f2709c;
+  background: -webkit-linear-gradient(to right, #005086, #A6A8AA);
+  background: linear-gradient(to right, #A6A8AA, #005086);
+}
+
+.tilesWrap li:nth-child(3):before {
+  background: #c21500;
+  background: -webkit-linear-gradient(to right, #A6A8AA, #005086);
+  background: linear-gradient(to right, #005086, #A6A8AA);
+}
+
+.tilesWrap li:nth-child(4):before {
+  background: #FC354C;
+  background: -webkit-linear-gradient(to right, #005086, #A6A8AA);
+  background: linear-gradient(to right, #A6A8AA, #005086);
+}
+
+.tilesWrap li:nth-child(5):before {
+  background: #FC354C;
+  background: -webkit-linear-gradient(to right, #A6A8AA, #005086);
+  background: linear-gradient(to right, #005086, #A6A8AA);
+}
+
+.tilesWrap li:nth-child(6):before {
+  background: #FC354C;
+  background: -webkit-linear-gradient(to right, #005086, #A6A8AA);
+  background: linear-gradient(to right, #A6A8AA, #005086);
+}
+
+.tilesWrap li:nth-child(8):before {
+  background: #FC354C;
+  background: -webkit-linear-gradient(to right, #005086, #A6A8AA);
+  background: linear-gradient(to right, #A6A8AA, #005086);
+}
+
+#texte_06 {
+  width: 70%;
+}
+
+
+
+/*Article autoF*/
+
+.texte_centrer_autoF {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 130%;
+  line-height: 250%;
+}
+
+#autopick {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+
+}
+
+
+
+#autoF_pick {
+ 
+  height: auto;
+  display: block;
+}
+
+
+.container_autof {
+  display: flex;
+  height: 150px;
+  margin-bottom: 10%;
+
+
+  max-width: 100%;
+}
+
+.section {
+  border-top: solid 10px #005086;
+  border-bottom: solid 10px #005086;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  transition: flex .4s ease;
+  position: relative;
+  margin-top: -10px;
+}
+
+.section .overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: background-color .8s ease;
+}
+
+.section .content {
+  z-index: 2;
+}
+
+.section:hover {
+  flex: 2;
+}
+
+.section:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#cpp {
+  background-image: url(../img/logo_cpp.png);
+
+}
+
+
+#py {
+  background-image: url(../img/logo_py.png);
+}
+
+#jv {
+  background-image: url(../img/Java_Logo.svg.png);
+}
+
+#cpp_link {
+  text-decoration: none;
+  color: white;
+}
+
+#py_link {
+  text-decoration: none;
+  color: white;
+}
+
+#jv_link {
+  text-decoration: none;
+  color: white;
+}
+
+#xl {
+  background-image: url(../img/logo_excel.png);
+}
+
+
+#xl_link {
+  text-decoration: none;
+  color: white;
+}
+
+#ppt {
+  background-image: url(../img/logo_powerpoint.png);
+}
+
+#ppt_link {
+  text-decoration: none;
+  color: white;
+}
+
+#impact_prs {
+  background-image: url(../img/logo_diapo.png);
+}
+
+#impact_prs_link {
+  text-decoration: none;
+  color: white;
+}
+
+#tw {
+  background-image: url(../img/logo_tw.png);
+}
+
+#tw_link {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.type_formation {
+  font-family: 'Courier New', Courier, monospace;
+  color: #005086;
+  font-size: 30px;
+  font-weight: bold;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #A6A8AA;
+  text-align: center;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  border-radius: 10px 10px 10px 10px;
+  border: solid 10px #005086;
+
+}
+/*Article logiciel pro et li*/
+
+
+#software_pick {
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+
+
+#softwarepic{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.texte_centrer_sftwr {
+  position: absolute;
+  top: 65%;
+  left: 21%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 170%;
+  line-height: 250%;
+}
+
+/*Office*/
+
+#office_img {
+  width: 400px;
+  margin-top: 6%;
+}
+
+#libreoffice_img{
+  width: 450px;
+  margin-top: 12%;
+}
+
+.flip_container_office {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  padding-top: 100px;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+
+  margin-left: 20%;
+  margin-right: 80px;
+  margin-bottom: 40px;
+}
+
+.flip-card_office {
+  background-color: transparent;
+  width: 500px;
+  height: 200px;
+  border: 7px solid #005086;
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
+  border-radius: 20px 20px 20px 20px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner_office {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card_office:hover .flip-card-inner_office {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front_office,
+.flip-card-back_office {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front_office {
+  background-color: white;
+  color: black;
+  border-radius: 17px 17px 17px 17px;
+}
+
+/* Style the back side */
+.flip-card-back_office {
+  background-color: white;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 17px 17px 17px 17px;
+}
+
+
+/*Navigateur*/
+
+#opera_img {
+  width: 400px;
+  margin-top: 6%;
+}
+
+#firefox_img{
+  width: 450px;
+  margin-top: 5%;
+}
+
+.flip_container_nav {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  padding-top: 100px;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+
+  margin-left: 150px;
+  margin-right: 80px;
+  margin-bottom: 40px;
+}
+
+.flip-card_nav {
+  background-color: transparent;
+  width: 500px;
+  height: 200px;
+  border: 7px solid #005086;
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
+  border-radius: 20px 20px 20px 20px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner_nav {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card_nav:hover .flip-card-inner_nav {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front_nav,
+.flip-card-back_nav {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front_nav {
+  background-color: white;
+  color: black;
+  border-radius: 17px 17px 17px 17px;
+}
+
+/* Style the back side */
+.flip-card-back_nav {
+  background-color: white;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 17px 17px 17px 17px;
+}
+
+/*Visio*/
+
+#compare_software_title{
+  font-family: 'minecraft','Courier New', Courier, monospace;
+  text-align: center;
+  color: white;
+  margin-top: 4%;
+  margin-bottom: -5%;
+  
+}
+
+#id_bureau{
+  font-family: 'minecraft','Courier New', Courier, monospace;
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+  font-size: 150%;
+  font-weight: bold;
+
+}
+
+#teams_img {
+  width: 320px;
+  margin-top: 6%;
+}
+
+#jitsi_img{
+  width: 450px;
+  margin-top: 5%;
+}
+
+#flip_item_visio{
+  margin-left: 53%;
+}
+
+.flip_container_visio {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  padding-top: 100px;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+
+  margin-left: 150px;
+  margin-right: 80px;
+  margin-bottom: 40px;
+}
+
+.flip-card_visio {
+  background-color: transparent;
+  width: 500px;
+  height: 200px;
+  border: 7px solid #005086;
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
+  border-radius: 20px 20px 20px 20px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner_visio {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card_visio:hover .flip-card-inner_visio{
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front_visio,
+.flip-card-back_visio {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front_visio {
+  background-color: white;
+  color: black;
+  border-radius: 17px 17px 17px 17px;
+}
+
+/* Style the back side */
+.flip-card-back_visio {
+  background-color: white;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 17px 17px 17px 17px;
+}
+
+/*Article Hébergement*/
+
+.texte_centrer_host {
+  position: absolute;
+  top: 79%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 130%;
+  line-height: 250%;
+}
+
+
+#case_heberge{
+  font-weight: bold;
+}
+
+
+#hosting_banner_pick{
+  height: auto;
+  display: block;
+  width: 100%;
+}
+
+#ovh{
+  background-image: url("../img/logo_ovh.png");
+
+}
+
+#ovh_link{
+  text-decoration: none;
+  color:white;
+}
+
+#sclway{
+background-image: url("../img/logo_scaleway.png");
+}
+
+#sclway_link{
+  text-decoration: none;
+  color:white;
+}
+
+#infomk{
+  background-image: url("../img/infomaniak-sa.jpg");
+}
+
+#infomk_link{
+  text-decoration: none;
+  color:white;
+
+}
+
+/*Bas de la page*/
+
+.texte_centrer_code {
+  position: absolute;
+  top: 76%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 130%;
+  line-height: 250%;
+}
+
+#bas_Page {
+  background-color: #18191B;
+  min-width: 100%;
+}
+
+.grid_conteneur_footer {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  grid-column-gap: 25px;
+
+  margin-top: 200px;
+  min-width: 100%;
+}
+
+.grid_footer_1 {
+  margin-top: 15px;
+  margin-left: 400px;
+  padding: 25px;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  font-family: 'minecraft', 'arial';
+  ;
+
+
+}
+
+.grid_footer_2 {
+
+  padding: 25px;
+  margin-right: 175px;
+}
+
+#img_footer_2 {
+  width: 250px;
+}
+
+/*Bouton accès page liste via la main page*/
+
+
+
+
+
+.container {
+  width: 1000px;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.container .btn {
+  position: relative;
+  width: 1000px;
+  height: 75px;
+  margin: 20px;
+}
+
+.container .btn a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid #0400ff;
+  border-radius: 30px;
+  color: #fff;
+  z-index: 1;
+  font-size: x-large;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.5s;
+  backdrop-filter: blur(15px);
+
+}
+
+.container .btn:hover a {
+  letter-spacing: 3px;
+}
+
+.container .btn a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.15),
+      transparent);
+  transform: skewX(45deg) translateX(0);
+  transition: 0.5s;
+}
+
+.container .btn:hover a::before {
+  transform: skewX(45deg) translateX(200%);
+}
+
+.container .btn::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -5px;
+  width: 30px;
+  height: 10px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  transition: 0.5s;
+  transition-delay: 0s;
+}
+
+.container .btn:hover::before {
+  bottom: 0;
+  height: 50%;
+  width: 100%;
+  border-radius: 30px;
+  transition-delay: 0.5s;
+}
+
+.container .btn::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -5px;
+  width: 30px;
+  height: 10px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  transition: 0.5s;
+  transition-delay: 0s;
+}
+
+.container .btn:hover::after {
+  top: 0;
+  height: 50%;
+  width: 100%;
+  border-radius: 30px;
+  transition-delay: 0.5s;
+}
+
+.container .btn:nth-child(1)::before,
+.container .btn:nth-child(1)::after {
+
+  box-shadow: 0 0 5px #0400ff,
+    0 0 15px #0400ff,
+    0 0 30px #0400ff,
+    0 0 60px #0400ff;
+}
+
+/*Page A Propos*/
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  border-collapse: separate;
+}
+
+.one {
+  grid-column: 1;
+  grid-row: 1 / 5;
+  border: 8px solid white;
+  width: 500px;
+  height: 750px;
+
+}
+
+.two {
+  grid-column: 2 / 4;
+  grid-row: 1 / 5;
+  border: 8px solid white;
+  width: 1225px;
+  height: 750px;
+  position: relative;
+
+
+}
+
+#pp_Perso {
+  width: 50%;
+  margin-left: 120px;
+  margin-top: 15px;
+  border: 8px solid black;
+  border-radius: 50px 50px 50px 50px;
+}
+
+#carte_id {
+  text-align: center;
+  color: white;
+}
